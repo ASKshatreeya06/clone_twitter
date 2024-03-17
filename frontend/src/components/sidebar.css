@@ -1,0 +1,74 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   position: fixed;
+    /* position: absolute; */
+     /* text-align: center; */
+    width:  383px;
+    height: 100vh;
+    background-color: black;
+    
+}
+.sidebar>ul{
+    list-style-type: none;
+    font-size: larger;
+    margin-right: 0 .5rem;
+    
+}
+#logo>img{
+    padding: .3rem .5rem;
+}
+.sidebar>ul>li{
+    /* margin: .3rem 0; */
+    padding: .8rem 1rem;
+   
+    
+}
+.sidebar>ul>li>a:hover, .sidebar>ul>#logo>img:hover{
+    background-color: rgb(51, 55, 58);
+    border: 1px solid black;
+    border-radius: 5rem;
+}
+.sidebar>ul>li>a,.sidebar>ul>li>img{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight:480;
+    padding:.5rem 1rem;
+    
+}
+#logo{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#logo>img{
+    height: 40px;
+}
+
+#post>button{
+    width: 100%;
+    padding: .7rem 5rem;
+    border: 0;
+    border-radius: 5rem;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(29, 155, 240);
+}
+.profileImage{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: .3rem;
+}
+.profileImage>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+.profileImage>div>.userId{
+    opacity: .5;
+}
+.profileImage>img{
+height: 50px;
+border-radius: 5rem;
+}

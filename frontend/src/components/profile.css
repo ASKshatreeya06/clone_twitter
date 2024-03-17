@@ -1,0 +1,77 @@
+.profile{
+    margin-left: 384.4px;
+    width: 597px;
+    height: 600px;
+    position: fixed;
+    background-color: black;
+}
+.profileName{
+    display: flex;
+ 
+    align-items: center;
+    height: 50px;
+}
+.profileName>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: .7rem;
+}
+.profileName>div>h3{
+    margin: 0;
+}
+.profileName>div>span{
+    opacity: .5;
+}
+
+.profile_Image{
+    height: 13rem;
+}
+.profile_Image>div{
+    width: 100%;
+    height: 11rem;
+    background-color: rgb(108, 106, 106);
+
+}
+.profile_Image>span{
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+.profile_Image>span>img{
+    background-color: black;
+    padding: .3rem;
+    border-radius: 5rem;
+    height: 150px;
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+}
+.profile_Image>span>button{
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    padding: .4rem 1rem;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5rem;
+}
+
+.profileText{
+    color: aliceblue;
+}
+
+
+.profileText>div{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.profileText>div>h3{
+    margin: 0;
+
+}
+.profileText>div>span{
+    opacity: .5;
+}
